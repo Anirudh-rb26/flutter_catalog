@@ -23,7 +23,7 @@ class MyApp extends StatelessWidget {
         fontFamily: GoogleFonts.comfortaa().fontFamily,
       ),
       routes: {
-        "/": (context) => LoginPage(),
+        "/": (context) => HomePage(),
         MyRoutes.homeRoute: (context) => HomePage(),
         MyRoutes.loginRoute: (context) => LoginPage(),
       },
